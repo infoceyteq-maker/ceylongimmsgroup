@@ -1,0 +1,6 @@
+{
+  "name": "Ceylon GIMMS - Corporate Ecosystem",
+  "description": "Bridging Planetary Knowledge and Strategic Execution across Geography, Information, Marketing, Management, and Science.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

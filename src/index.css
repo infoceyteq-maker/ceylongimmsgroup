@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* 3D Neo-Brutalism tactile shadows & glass effects */
+.neo-box {
+  box-shadow: 6px 6px 0px 0px #000000;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neo-box:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 9px 9px 0px 0px #000000;
+}
+
+.neo-box-green {
+  box-shadow: 6px 6px 0px 0px #0d5c1e;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neo-box-green:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0px 0px #0d5c1e;
+}
+
+.neo-btn-primary {
+  background-color: #126c1e;
+  color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+
+.neo-btn-primary:hover {
+  background-color: #0d5c1e;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.neo-btn-primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #000000;
+}
+
+.neo-btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+
+.neo-btn-secondary:hover {
+  background-color: #f4f4f4;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.neo-btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #000000;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(255, 255, 255, 0.9);
+}
+
